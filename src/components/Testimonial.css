@@ -1,0 +1,27 @@
+.testimonial .slick-arrow.slick-prev,
+.testimonial .slick-arrow.slick-next {
+  background: none;
+  width: 40px;
+  height: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  z-index: 1;
+  border-radius: 5px;
+}
+.slick-prev::before,
+.slick-next::before {
+  display: none;
+}
+.slick-arrow.slick-prev{
+    left: 0px;
+    top: 60px;
+}
+.slick-arrow.slick-next{
+    right: 0px;
+    top: 60px;
+}
+.testimonial{
+    /* border: 2px solid black; */
+    /* border-style: outset; */
+}
