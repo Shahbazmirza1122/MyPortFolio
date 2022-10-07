@@ -34,7 +34,7 @@ jobs:
          run: npm install
           
       - name: Creating Build
-        run: yarn build
+        run: npm run build
           
       - name: Installing Surge
         # This step will install surge
